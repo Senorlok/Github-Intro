@@ -1,0 +1,7 @@
+GitHub Pages: a web hosting service for hosting static web pages.
+
+* To create a web environment, create a branch of the repo, and name it 'gh-pages'.
+* Make the branch the default branch, and delete the master branch if you wish.
+
+* Files in gh-pages can be accessed directly by going to the web deployment page, and adding "NAME_FILE.EXT". There should be not spaces and an extension in the file name.
+* The file 'index.html' would be the default file displayed on the page.
