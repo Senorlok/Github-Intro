@@ -15,3 +15,5 @@ Fork: Taking a copy of the repository from one account and working on it from an
 Issues: A section to report bugs and suggestions to the project. Issues can then be referenced in fixes by owner or pull requests by others. 
 
 Clone: to copy a repositroy and downloaded locally for editting.
+
+GitHub Pages: a web hosting service for hosting static web pages.
