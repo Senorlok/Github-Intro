@@ -1,0 +1,17 @@
+More defintions here: https://help.github.com/en/articles/github-glossary#remote
+
+Git: The OG program used for version control.
+GitHub: A website where you can do projects with version control on them.
+Repository: A "Repo", a project, a place where you store files for version control.
+Commit: Making a 'save' to file.
+	Commit Hash: A unique identifier for each Commit made.
+
+Branch: A branch or a fork from the master file, that can be developed independently.  
+Pull Request: A request to add a branch that contains changes back into the master or another branch from which a change branch had forked. Pull requests are often made between different users working on the same repo, or on a different copy of the repo.
+Merge: To accept a pull reuest and merge the changes into the project.
+
+Fork: Taking a copy of the repository from one account and working on it from another account.
+
+Issues: A section to report bugs and suggestions to the project. Issues can then be referenced in fixes by owner or pull requests by others. 
+
+Clone: to copy a repositroy and downloaded locally for editting.

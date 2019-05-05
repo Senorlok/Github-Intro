@@ -1,0 +1,70 @@
+git config --global user.name "Your Name":             Add your username for the git (Can be anything such as the word 'REDACTED', but use GH info if using with GH.)
+git config --global user.email "you@example.com":      Add your email for the git (Can be anything such as the word 'REDACTED', but use @users.noreply.github.com if using with GH.)
+git config --list:                                     See the git config information.
+
+git clone REPO_HTTP_CLONE_URL:   Clones the repo locally.
+git push:                        Push the update TO the GH server repo. Will ask you to log into GH if have not already.
+git push:                        Pull the update FROM the GH server repo. Will ask you to log into GH if have not already.
+
+git status:                                 Dispaly changed files, not yet comitted.  
+git commit -a -m "MESSAGE":                 Commit ALL changes and add a commit update message.
+git commit FILE_NAME -m "MESSAGE":          Commit changes to a single file and add a commit update message.
+git log AND git log -1                      See list of commits AND see the last commit (number can be changed to see the last 2, 3, 4... commits)
+
+git init:                                   Initialize a local directory as a git repo.
+git add FILE_NAME:                          When creating a new file locally in the repo, it must be added to the git.
+git add FOLDER_NAME/:                       Add a folder to the git directory. Folder must have no spaces and contain at least 1 file.
+git remote add origin REPO_HTTP_CLONE_URL:  Link up a locally created repo with GH (make sure to create a repo with the same name in GH beforehand)
+git push -u origin master:                  Initial push to GH. Here we refference the 'master' branch
+
+git branch:                                 Display current branch and its origin.
+git branch -a:                              Display current branch and its origin, and list out all other branches.
+git checkout NAME_OF_BRANCH:                Switch to another branch.
+git remote prune origin:                    Remove local branches that have been deleted at GH.
+git push --set-upstream origin BRANCH_NAME: Push initialization/updates from a locally created branch.
+git push origin --delete BRANCH_NAME:       Delete a branch on GH.
+====================================================================================================
+
+
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
