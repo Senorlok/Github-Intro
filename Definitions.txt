@@ -17,3 +17,5 @@ Issues: A section to report bugs and suggestions to the project. Issues can then
 Clone: to copy a repositroy and downloaded locally for editting.
 
 GitHub Pages: a web hosting service for hosting static web pages.
+
+Merge Conflicts: Conflicts that occur when merging commits from multiple branches. (EX: When there is an line edit commit from one branch, and a line delete commit from another branch)
