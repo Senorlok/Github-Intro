@@ -19,3 +19,5 @@ Clone: to copy a repositroy and downloaded locally for editting.
 GitHub Pages: a web hosting service for hosting static web pages.
 
 Merge Conflicts: Conflicts that occur when merging commits from multiple branches. (EX: When there is an line edit commit from one branch, and a line delete commit from another branch)
+
+Remote: A remote is a common location where collaborators exchange the changes to a project, whereas a local repo is specific to a machine. A remote is typically hosted on a site, like GH, or some common server.
