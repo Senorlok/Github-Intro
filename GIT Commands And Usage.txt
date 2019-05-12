@@ -1,10 +1,10 @@
 git config --global user.name "Your Name":             Add your username for the git (Can be anything such as the word 'REDACTED', but use GH info if using with GH.)
-git config --global user.email "you@example.com":      Add your email for the git (Can be anything such as the word 'REDACTED', but use @users.noreply.github.com if using with GH.)
+git config --global user.email "you@example.com":      Add your email for the git (Can be anything such as the word 'REDACTED', but use @users.noreply.github.com address if using with GH.)
 git config --list:                                     See the git config information.
 
-git clone REPO_HTTP_CLONE_URL:   Clones the repo locally.
-git push:                        Push the update TO the GH server repo. Will ask you to log into GH if have not already.
-git push:                        Pull the update FROM the GH server repo. Will ask you to log into GH if have not already.
+git clone REPO_HTTP_CLONE_URL:              Clones the repo locally.
+git push:                                   Push the update TO the GH server repo. Will ask you to log into GH if have not already.
+git push:                                   Pull the update FROM the GH server repo. Will ask you to log into GH if have not already.
 
 git status:                                 Dispaly changed files, not yet comitted.  
 git commit -a -m "MESSAGE":                 Commit ALL changes and add a commit update message.
@@ -14,15 +14,19 @@ git log AND git log -1                      See list of commits AND see the last
 git init:                                   Initialize a local directory as a git repo.
 git add FILE_NAME:                          When creating a new file locally in the repo, it must be added to the git.
 git add FOLDER_NAME/:                       Add a folder to the git directory. Folder must have no spaces and contain at least 1 file.
-git remote add origin REPO_HTTP_CLONE_URL:  Link up a locally created repo with GH (make sure to create a repo with the same name in GH beforehand)
+git remote add origin REPO_HTTP_CLONE_URL:  Link up a locally created repo with GH (make sure to create a repo with the same name in GH beforehand) The repo is designated 'origin' but it can be renamed to anything else; as such any other usage of the word 'origin' must also be replace.
+git remote remove origin:                   Unlink the local repo to the remote repo.
+git remote -v:                              Shows remote location(s) where a versino of the repo is stored.
 git push -u origin master:                  Initial push to GH. Here we refference the 'master' branch
 
 git branch:                                 Display current branch and its origin.
+git branch NAME_OF_BRANCH:                  Create and name a new branch.
 git branch -a:                              Display current branch and its origin, and list out all other branches.
 git checkout NAME_OF_BRANCH:                Switch to another branch.
 git remote prune origin:                    Remove local branches that have been deleted at GH.
 git push --set-upstream origin BRANCH_NAME: Push initialization/updates from a locally created branch.
 git push origin --delete BRANCH_NAME:       Delete a branch on GH.
+git branch -D BRANCH_NAME:                  Delete a local branch.
 ====================================================================================================
 
 
