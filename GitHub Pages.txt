@@ -5,3 +5,5 @@ GitHub Pages: a web hosting service for hosting static web pages.
 
 * Files in gh-pages can be accessed directly by going to the web deployment page, and adding "NAME_FILE.EXT". There should be not spaces and an extension in the file name.
 * The file 'index.html' would be the default file displayed on the page.
+
+CNAME: An extensionless file created within 'gh-pages', that contains the custom domain to forward to. 
